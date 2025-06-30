@@ -66,10 +66,6 @@ const handleStartClick = () => {
         @update:answer="(val) => (answers[question.id] = val)"
       />
     </div>
-    <div class="flex justify-between gap-2">
-      <CommonButton buttonText="Prev" />
-      <CommonButton buttonText="Next" />
-    </div>
   </div>
   <CommonButton buttonText="Submit Quiz" @click="submit" />
 </template>
